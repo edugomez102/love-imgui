@@ -22,7 +22,7 @@ build_script:
 test: off
 
 artifacts:
-    - path: Release\imgui.dll
+    - path: build\Release\imgui.dll
       name: love-imgui-win64.dll
 
 deploy:
