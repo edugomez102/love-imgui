@@ -14,9 +14,9 @@ build_script:
     - set LUAJIT_DIR=c:\projects\LuaJIT-2.0.5\src
     - cd %BUILD_DIR%
     # - cmake -DCMAKE_GENERATOR_PLATFORM=x64 .
-    - cmake -Bbuild -H.
-    - msbuild Project.sln
-    - dir /s c:\projects\love-imgui
+    - cmake -H.
+    # - msbuild Project.sln
+    # - dir /s c:\projects\love-imgui
 
 test: off
 
